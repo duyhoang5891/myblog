@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: black;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.header-wrap {
+    background-color: #ffffff;
+    /* z-index: 1; */
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px #ecedef
+}
+
+.icon {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.wrap-icon {
+    height: 100%;
+    width: 85px;
+    position: relative;
+    border-right: 1px solid #f0f2f5;
+    border-left: 1px solid #f0f2f5;
+}
+.wrap-setting{
+    height: 100%;
+    width: 85px;
+    position: relative;
+    border-right: 1px solid #f0f2f5;
+    border-left: 1px solid #f0f2f5;
+}
+.nav {
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+
+.list-nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.list-item a {
+    display: block;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 70px;
+    /* border: 1px solid red; */
+}
+
+.list-item a:hover {
+    background-color: #e4e6e9;
+}
+
+.contact {
+    /* border: 1px solid red; */
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid #f0f2f5;
+}
+
+.contact a img {
+    height: 30px;
+}
+
+.contact a {
+    /* border: 1px solid black; */
+    height: 30px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.brand {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #f0f2f5;
+}
+
+.brand a {
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    /* border: red solid 1px   ; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 80px 20px 20px 20px;
+}
+
+.wrap-info {
+    border-radius: 10px;
+    position: fixed;
+    width: 260px;
+    height: 500px;
+    background-color: #ffffff;
+    top: 80px;
+    left: 20px;
+    box-shadow: 3px 3px #ecedef;
+}
+
+.wrap-info img {
+    margin-bottom: 20px;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+#name {
+    font-weight: 900;
+}
+
+.wrap-friend {
+    display: flex;
+    width: 260px;
+    height: 500px;
+    flex-direction: column;
+    justify-self: center;
+    align-items: stretch;
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    overflow: scroll;
+}
+
+.content {
+    width: 55%;
+    height: 100%;
+}
+
+.friend-link {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.friend {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.friend:hover {
+    background-color: #e4e6e9;
+    border-radius: 6px;
+}
+
+.friend img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.fb {
+    margin-left: 10px;
+    line-height: 20px;
+    color: rgb(87, 87, 87);
+}
+
+.friend-infor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    margin-left: 10px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.post {
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 3px 3px #ecedef
+}
+
+.author {
+    margin: 20px 20px 0 20px;
+    height: 80px;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.author p {
+    line-height: 30px;
+}
+
+.author img {
+    margin-right: 10px;
+}
+
+.author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.time {
+    color: rgb(87, 87, 87);
+}
+
+.post-img {
+    width: 100%;
+}
+
+.status {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
